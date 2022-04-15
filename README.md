@@ -1,4 +1,24 @@
-# TestTechniqueIVS
+# Test Technique IVS
+
+N'ayant jamais utilisé Angular, j'ai commencé dans un premier temps par me documenter sur son utilisation et sa manière de l'employer.
+
+Après avoir suivi différents tutoriels, j'ai commencé à travailler sur ce projet. 
+
+J'ai d'abord installé les différents packages nécessaires au développement de cette API. 
+
+Puis j'ai réalisé la BDD et sa connexion au projet grace à PHP(ApiRest.php). Pour partager la base, je l'ai importé dans le fichier source de l'API (testtechniqueivs.sql). Cette-dernière compte plusieurs tables :
+- organisations (id, nom, personnes_presentes)
+- buildings (id, nom, zipcode, personnes_presentes)
+- pieces (id, nom, personnes_presentes)
+Ces dernières sont liées entre elles pour permettre de modifier le nombre de personnes présentes.
+
+Dans le fichier PHP, après l'avoir connecté à la BDD,  j'ai recupéré les différents éléments des tables grâce à des requêtes SQL puis j'ai utilisé print pour les afficher.
+
+Enfin, j'ai débuté le développement en Angular, en commençant par la création des différents components (buildings, organisations et pieces). Pour chacun d'entre eux, j'ai mis en place les différents éléments permettant d'afficher le contenu demandé en effectuant des imports dans le fichier app.module.ts puis en déclarant dans app.module.html. Et j'ai essayé de lié Angular au programme PHP, mais je n'ai pas réussi.
+
+
+
+## TestTechniqueIVS
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.2.
 
