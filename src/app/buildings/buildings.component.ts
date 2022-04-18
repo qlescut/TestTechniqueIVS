@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { buildings } from '../buildings';
-import { BUILDINGS } from '../mock-buildings';
 import { BuildingService } from '../building.service';
 
 @Component({

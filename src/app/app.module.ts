@@ -7,6 +7,9 @@ import { OrganisationsComponent } from './organisations/organisations.component'
 import { BuildingsComponent } from './buildings/buildings.component';
 import { PiecesComponent } from './pieces/pieces.component';
 import { HttpClientModule } from '@angular/common/http';
+import { BuildingService } from './building.service';
+import { OrganisationService } from './organisation.service';
+import { PieceService } from './piece.service';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,11 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     HttpClientModule,
   ],
-  providers: [],
+  providers: [
+    BuildingService,
+    OrganisationService,
+    PieceService
+  ],
   bootstrap: [AppComponent]
 })
 

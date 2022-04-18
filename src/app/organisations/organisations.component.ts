@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { organisations } from '../organisations';
-import { ORGANISATIONS } from '../mock-organisations';
 import { OrganisationService } from '../organisation.service';
 
 @Component({

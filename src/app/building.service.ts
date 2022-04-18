@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { buildings } from './buildings';
-import { BUILDINGS } from './mock-buildings';
 import { HttpClient } from '@angular/common/http';
 import { map } from 'rxjs/operators';
 

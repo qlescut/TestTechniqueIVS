@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { pieces } from './pieces';
-import { PIECES } from './mock-pieces';
 import { HttpClient } from '@angular/common/http';
 import { map } from 'rxjs/operators';
 
